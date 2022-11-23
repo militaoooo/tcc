@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <title>Teste</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="./CSS/style.css">
+
+</head>
+
+<body>
+  <header>
+    <div class="logo"><img src="./IMG/LOGO.png"></div>
+        <ul>
+            <li><a href="#">INÍCIO</a></li>
+            <li><a href="#">SOBRE</a></li>
+            <li><a href="#">CARDÁPIO</a></li>
+            <li><a href="#">CONTATO</a></li>
+        </ul>
+  </header>
+  <main>
+      <section class="pg_inicial">
+        <div class="row">
+        <div class="col-4">
+            <div class="card">
+            <div class="card-body">
+                <img src="./IMG/LOGO.png">
+            </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card">
+            <div class="card-body">
+                <img src="./IMG/LOGO.png">
+            </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="quem_somos">
+        <div>
+          <h1>Quem somos?</h1>
+          <p>O Açaí do Tio Zé nasceu com o intuito de trazer a melhor qualidade e experiência que um cliente poderia imaginar.</p>
+        </div>
+    </section>
+
+    <section class="criatividade">
+      <div class="teste">
+        <div class="titulo">
+          <h2>Nossos <span>Feedbacks</span></h2>
+        </div>
+  
+        <div id="carrossel" class="carousel slide" data-bs-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-bs-target="#carrossel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
+            <li data-bs-target="#carrossel" data-bs-slide-to="1" aria-label="Second slide"></li>
+            <li data-bs-target="#carrossel" data-bs-slide-to="2" aria-label="Third slide"></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+              <p>"O melhor açaí da região!"</p>
+            </div>
+            <div class="carousel-item">
+              <p>"O melhor açaí da região!"</p>
+            </div>
+            <div class="carousel-item">
+              <p>"O melhor açaí da região!"</p>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carrossel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carrossel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="contato">
+      <div>
+        <h3>VENHA NOS CONHECER!</h3>
+        <a href="#"><button>ENTRE EM CONTATO</button></a>
+      </div>
+    </section>
+
+    <button class="scrollTop" onclick="backTop();">
+      <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" fill="#FFF" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+        <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+      </svg>
+    </button>
+  </main>
+
+  <footer>
+    <span>Rua Ana Lúcia de Amicis, 185</span>
+    <div class="icons-footer">
+
+    </div>
+  </footer>
+
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+
+  <script type="text/javascript">
+    window.addEventListener('scroll', function() {
+        let scroll = document.querySelector('.scrollTop')
+            scroll.classList.toggle('active', window.scrollY > 450)
+    })
+
+    function backTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      })
+    }
+  </script>
+
+</body>
+</html>
