@@ -55,6 +55,13 @@ section {
     height: 700px;
 }
 
+.pg_inicial {
+    background-image: url(../IMG/vetor-1.svg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 65%;
+}
+
 .pg_inicial .row {
     display: flex;
     justify-content: space-between;
@@ -72,6 +79,23 @@ section {
     height: 30rem;
 }
 
+.pg_inicial .card {
+    background-color: transparent;
+    border: none;
+}
+
+.pg_inicial .img-ffa {
+    width: 374px;
+    height: 360px;
+}
+
+.quem_somos {
+    background-image: url(../IMG/vetor-2.svg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 65%;
+}
+
 .quem_somos div {
     color: white;
     padding: 0 200px 0 174px;
@@ -85,6 +109,13 @@ section {
 .quem_somos div p {
     font-weight: 500;
     font-size: 30px;
+}
+
+.criatividade {
+    background-image: url(../IMG/waves.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 100%;
 }
 
 .criatividade .teste {
@@ -215,7 +246,12 @@ footer span {
 }
 
 footer div {
-    width: 150px;
-    height: 20px;
-    background-color: #FFC700;
+    width: 70x;
+    height: 32px;
+}
+
+footer div .icon {
+    width: 32px;
+    height: 32px;
+    color: #FFF;
 }
