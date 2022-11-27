@@ -194,7 +194,14 @@ section {
 
 .contato {
     color: white;
-    padding: 0 200px 0 174px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contato .mapa iframe{
+    border-radius: 0.5rem;
 }
 
 .contato h3 {
